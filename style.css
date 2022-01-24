@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 90vmin;
+  width: 900px;
   position: absolute;
   background-color: aliceblue;
   transform: translate(-50%, -50%);
@@ -84,12 +84,19 @@ body {
   display: flex;
   gap: 10px;
   color: rgb(148, 146, 146);
-  font-size: 18px;
+  font-size: 20px;
   margin: 5px 0 20px 0;
 }
 
 .word-meaning {
   color: #575a7b;
+}
+
+.word-meaning span {
+  color: #575a7b;
+  font-style: italic;
+  font-size: 16px;
+  padding-right: 10px;
 }
 
 .word-description {
@@ -98,4 +105,11 @@ body {
   padding-left: 30px;
   border-left: 3px solid cornflowerblue;
   font-style: italic;
+}
+
+.word-description span {
+  color: #575a7b;
+  font-style: italic;
+  font-size: 16px;
+  padding-right: 10px;
 }
